@@ -46,3 +46,5 @@ CREATE TABLE Loans (
     FOREIGN KEY (BookID) REFERENCES Books(BookID),
     FOREIGN KEY (MemberID) REFERENCES Members(MemberID)
 );
+
+
